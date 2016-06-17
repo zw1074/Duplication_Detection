@@ -49,9 +49,11 @@ Feature 24: Count Common of skill words
 ## T-SNE
 
 To test the performance of this feature extractor, we use [T-SNE](https://lvdmaaten.github.io/tsne/) technique. Here is the graph of the 2D embedding:
+![alt text](https://raw.githubusercontent.com/zw1074/Duplication_Detection/master/Figures/T-SNE.png)
 
 ## Model Training
 
 We feed the data into these models: ```['RandomForest_small', 'RandomForest_big', 'Gradientboost_small', 'Gradientboost_big', 'LogisticRegression_l1', 'LogisticRegression_l2']```
 
-## Results
+## Error Results
+https://github.com/zw1074/Duplication_Detection/blob/master/Figures/error.png
