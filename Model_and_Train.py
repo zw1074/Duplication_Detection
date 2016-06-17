@@ -68,4 +68,3 @@ plt.title('Validation error and cv_error of different models')
 plt.xticks(index + bar_width, ('RF_10', 'RF_20', 'GB_100', 'GB_200', 'LR_l1', 'LR_l2'))
 plt.legend(loc=0)
 plt.savefig('error.png')
-
