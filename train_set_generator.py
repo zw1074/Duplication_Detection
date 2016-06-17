@@ -60,4 +60,4 @@ with open('X.npy', 'wb+') as fobj:
 with open('y.npy', 'wb+') as fobj:
     pickle.dump(y, fobj)
 with open('index.npy', 'wb+') as fobj:
-    pickle.dump(index_select, fobj)
+    pickle.dump(index_select, fobj) 
