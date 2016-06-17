@@ -56,4 +56,4 @@ To test the performance of this feature extractor, we use [T-SNE](https://lvdmaa
 We feed the data into these models: ```['RandomForest_small', 'RandomForest_big', 'Gradientboost_small', 'Gradientboost_big', 'LogisticRegression_l1', 'LogisticRegression_l2']```
 
 ## Error Results
-https://github.com/zw1074/Duplication_Detection/blob/master/Figures/error.png
+![alt text](https://github.com/zw1074/Duplication_Detection/blob/master/Figures/error.png)
