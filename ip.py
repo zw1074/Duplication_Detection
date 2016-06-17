@@ -175,5 +175,5 @@ ip_list2 = map(lambda x: tuple(x), ip_list2)
 # ip_list3 = map(lambda x: tuple(x), ip_list3)
 ip_list_final = list(set(ip_list + ip_list2))
 with open('ip_list7.npy', 'wb+') as fobj:
-    pickle.dump(ip_list_final, fobj)
+    pickle.dump(ip_list_final, fobj) 
 
