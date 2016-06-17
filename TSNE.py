@@ -18,4 +18,4 @@ with open('y.npy', 'rb+') as fobj:
 X_select = random.sample(X[:101172], 500) + random.sample(X[101172:], 500)
 X_select.__len__()
 t = TSNE()
-X_TSNE = t.fit_transform(X_select)
+X_TSNE = t.fit_transform(X_select) 
