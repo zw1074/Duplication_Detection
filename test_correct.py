@@ -20,4 +20,4 @@ for i in truth:
     except KeyError:
         notin.append(j)
         continue
-print k
+print k 
